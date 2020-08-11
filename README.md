@@ -2,11 +2,11 @@
 
 In this project, I attempted to improve LSTM models making predictions on the price of the FTSE100 and S&P500. I theorised that they might be improved by encorporating some measure of the population's confidence in the economy, which might be mirrored by the tone of the newspapers they read.
 
-First, I build baseline models to predict the movement of these two indexes, training the model only on past prices.
+First, I built baseline models to predict the movement of these two indexes, training the model only on past prices.
 
 Then, I analysed the tone of Newspaper Headlines over the same period of time, using TextBlob, a NLP Toolkit.
 
-Finally, I incorporated this new data into the models, to see if it improved their predictive power.
+Finally, I incorporated this new data into the models, to see how it improved their predictive power.
 
 ![](Pictures/BaselineFTSEPlot.png)
 
